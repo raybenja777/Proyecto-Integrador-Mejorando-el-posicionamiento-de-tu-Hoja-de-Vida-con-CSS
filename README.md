@@ -18,3 +18,7 @@ El detalle del proyecto "Hoja de Vida" explica el proceso paso a paso para crear
 
 ## Estilos CSS
 El archivo styles.css contiene los estilos utilizados para dar formato al contenido HTML.
+
+## Nota
+
+Es el mismo archivo a entregar del Sprint Review de Html solo que actualizado al Sprint Review de CSS
