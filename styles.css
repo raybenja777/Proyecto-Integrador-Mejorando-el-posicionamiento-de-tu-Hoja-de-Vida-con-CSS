@@ -1,0 +1,185 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0a5810;
+    border-bottom: 2px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #35218f;
+    background-image: url(Matrix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: black 0.5em 0.5em 0.5em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+table {
+    box-align: center;
+}
+
+.center-table {
+    box-align: center;
+    margin: 0 auto;
+    background-color: #234e53;
+}
+.intereses {
+    box-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.mis-proyectos {
+    display: grid;
+    gap: 40px;
+    margin : 30px;
+    padding: 3px;
+    text-align: center;
+    text-shadow: black 0.5em 0.5em 0.5em;
+    
+}
+
+.proyectos {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.proyectos a {
+    background-color: rgb(42, 100, 119); /* Color de fondo específico */
+    padding: 10px 20px; /* Ajusta el relleno */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: black; /* Color de texto */
+    width: 200px; /* Anchura del enlace */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: red;
+}
+
+
+form {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+label {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin: 30px;
+    padding: 20px;
+    background-color: #194120;
+    border-radius: 10px;
+    border-color: #0c3812;
+    color: white;
+    
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+a {
+    transition: background-color 0.3s ease; 
+    
+  }
+
+img {
+    transition: transform 0.3s ease; /* Transición de escala suave durante 0.3 segundos */
+  }
+
+  /* Agregar efecto de transición al pasar el mouse sobre los enlaces */
+a:hover {
+    background-color: lightgray; /* Cambiar el color de fondo al pasar el mouse */
+  }
+
+  /* Agregar efecto de transición al pasar el mouse sobre las imágenes */
+img:hover {
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño al pasar el mouse */
+    
+ }
+
+.perfil {
+    background-color: #234e53;
+    padding: 10px;
+    display: inline-block;
+    text-shadow: #0f1652;
+    color: #eaeaea;
+    box-shadow: black 0.5em 0.5em 0.5em;
+}
+
+.perfil a {
+    color: red; /* Color de texto específico para los enlaces */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* Ajusta el ancho máximo del formulario según sea necesario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+.contact-form div {
+    margin-bottom: 10px;
+    width: 100%; /* Ajusta el ancho de los elementos internos al 100% */
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; /* Ajusta el ancho de los campos de entrada y área de texto al 100% */
+    height: 60px;
+}
+
+.enlace {
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+    text-align: center; /* Esto centra el enlace horizontalmente */
+    background-color: #0c3812;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #eaeaea;
+}
+
+.enlace a {
+    color: red; /* Cambia 'red' por el color que desees */
+    text-decoration: none; /* Si deseas quitar el subrayado */
+}
+
+
